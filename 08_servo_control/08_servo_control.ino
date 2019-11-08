@@ -55,6 +55,6 @@ void setup() {
 }
 
 void loop() {
-  pos = map(analogRead(potentiometer),0,1023,0,255);
+  pos = map(analogRead(potentiometer),0,1023,0,180);
   myservo1.write(pos);
 }
